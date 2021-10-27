@@ -1,0 +1,50 @@
+.register {
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://cdn.pixabay.com/photo/2018/01/11/21/27/laptop-3076957__340.jpg");
+  background-size: cover;
+}
+.registerTitle {
+  font-family: "Lora", serif;
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+}
+.registerForm {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.registerForm > label {
+  margin: 10px 0;
+}
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
